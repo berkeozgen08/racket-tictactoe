@@ -1,1 +1,1 @@
-Snake game made in Racket.
+Tic-tac-toe made in Racket.
