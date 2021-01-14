@@ -85,7 +85,7 @@
         (and (or (= a1 7)(= a2 7)(= a3 7)(= a4 7))(or (= a1 8)(= a2 8)(= a3 8)(= a4 8))(or (= a1 9)(= a2 9)(= a3 9)(= a4 9)))
         (and (or (= a1 1)(= a2 1)(= a3 1)(= a4 1))(or (= a1 5)(= a2 5)(= a3 5)(= a4 5))(or (= a1 9)(= a2 9)(= a3 9)(= a4 9)))
         (and (or (= a1 3)(= a2 3)(= a3 3)(= a4 3))(or (= a1 5)(= a2 5)(= a3 5)(= a4 5))(or (= a1 7)(= a2 7)(= a3 7)(= a4 7)))) (underlay/align "middle" "middle" (circle 250 0 "red")
-                                                                                                                                               (text "  You've just lost to a computer.\n          There isn't even an\n          artificial intelligence\n        making the decisions.\n            You literally lost\n         to random numbers.\n   You imbecile. You disgrace.\n                  Pathetic." 35 "indigo"))]
+                                                                                                                                               (text "You lost." 35 "indigo"))]
    [(= x 5) (underlay/align "middle" "middle" (circle 250 0 "red") (text "Tie?" 100 "indigo"))]
    [else (begin (cond
                   [(and (string? ai1) (= x 1)) (cond

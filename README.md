@@ -1,1 +1,1 @@
-Tic-tac-toe made in Racket.
+Tic-tac-toe made in Racket. This was the first project I've ever made, don't judge.
